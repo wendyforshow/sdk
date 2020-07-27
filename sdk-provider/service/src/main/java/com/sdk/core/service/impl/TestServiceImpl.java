@@ -1,6 +1,6 @@
 package com.sdk.core.service.impl;
 
-import com.sdk.core.service.TestService;
+import com.sdk.service.TestService;
 import org.apache.dubbo.config.annotation.DubboService;
 import org.springframework.beans.factory.annotation.Value;
 

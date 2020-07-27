@@ -5,11 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.sdk.test</groupId>
-    <artifactId>sdk</artifactId>
+    <artifactId>api</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>sdk-provider</module>
-        <module>sdk-consumer</module>
-    </modules>
+    <packaging>jar</packaging>
 </project>

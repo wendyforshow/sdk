@@ -1,4 +1,4 @@
-package com.sdk.core.service;
+package com.sdk.service;
 
 public interface TestService {
     String getServerDetail();

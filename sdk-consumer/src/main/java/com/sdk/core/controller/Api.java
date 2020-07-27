@@ -1,6 +1,6 @@
 package com.sdk.core.controller;
 
-import com.sdk.core.service.TestService;
+import com.sdk.service.TestService;
 import org.apache.dubbo.config.annotation.DubboReference;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;

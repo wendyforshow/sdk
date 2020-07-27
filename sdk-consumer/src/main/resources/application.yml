@@ -9,8 +9,5 @@ dubbo:
     id: ${spring.application.name}-${server.port}
     name: ${spring.application.name}-${server.port}
   registry:
-    address: zookeeper://127.0.0.1:2181
-  protocol:
-    id: dubbo
-    name: dubbo
-    port: 20881
+    #    zookeeper 注册中心 对应的ip 例如： zookeeper://${ip1}:${port1} backup表示后援，集群注册 例如： zookeeper://${ip1}:${port1}?backup=${ip2}:${port2},${ip3}:${port3}
+    address: zookeeper://127.0.0.1:2181?backup=127.0.0.1:2182,127.0.0.1:2183
