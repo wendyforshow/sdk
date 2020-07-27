@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: spring-boot-consumer
+server:
+  port: 8081
+  name: ${spring.application.name}
+dubbo:
+  application:
+    id: ${spring.application.name}-${server.port}
+    name: ${spring.application.name}-${server.port}
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: 20881
